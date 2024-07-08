@@ -7,7 +7,7 @@ body{
  /* banner section start  */
 .banner-container{
     width: 1200px;
-    min-height: 600px;
+    height: 600px;
     
     margin: 20px auto;
     background-color: rgba(0, 0, 0, 0.4);
@@ -17,12 +17,14 @@ body{
     background-repeat: no-repeat;
     background-blend-mode: overlay;
 }
-.banner-container{
+.banner-contant{
+    
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;  
+     
 }
 .banner-contant h1{
     color: white;
@@ -137,10 +139,10 @@ body{
 
 .third-section-contant a{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
     
 }
 /* third-section-container end */
@@ -151,7 +153,7 @@ text-decoration: none;
     width: 1200px;
     height: 482px;
     border-radius: 16px;
-
+    
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
    
     
@@ -188,6 +190,22 @@ text-decoration: none;
     border: none;
     border-radius: 4px;
     }
+
+
+/* forth-section-container end */
+
+
+
+
+
+
+
+/* fifth-section-container start */
+.fifth-section-container{
+    width: 1200px;
+    height: 463px;
+    margin: 0 auto;
+}
 
 .forth-contant-items{
     display: flex;
@@ -242,5 +260,79 @@ text-decoration: none;
 
 
 
-/* forth-section-container end */
 
+
+/* fifth-section-container end */ 
+
+
+
+/* sixth-section-container start */ 
+
+.sixth-section-container{
+    width: 1200px;
+    height: 1100.07px;
+   
+    margin: 0 auto;
+    margin-top:226px ;
+    position: relative;
+    
+}
+.holiday-text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    margin: 0 auto;
+   
+    
+}
+
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday-text-container h1{
+    font-family: Merriweather;
+    font-size: 62px;
+    font-weight: 900;
+    color: #070211;
+}
+.holiday-text-container h1 span{
+    color: #FF0000;
+
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.solid-color{
+    width: 1200px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 79.3%;
+}
+.giftbox{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+/* sixth-section-container end */ 
