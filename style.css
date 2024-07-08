@@ -150,8 +150,11 @@ text-decoration: none;
 .forth-section-container{
     width: 1200px;
     height: 482px;
-    background-color:  linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
-    border: 2px solid red;
+    border-radius: 16px;
+
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+   
+    
     margin: 0 auto;
     margin-top: 126px;
     line-height: 35px;
@@ -176,6 +179,67 @@ text-decoration: none;
 .forth-section-contant .forth-contant-color{
     color: #FF0000;
 }
+.forth-section-contant button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 4px;
+    }
+
+.forth-contant-items{
+    display: flex;
+    padding-top: 210px;
+    justify-content: space-between;
+    gap: 120px;
+
+}
+
+.forth-contant-items .offer .sub-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+
+}
+.forth-contant-items .offer .title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align-last: left;
+    
+}
+.forth-contant-items .description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+ .forth-contant-image img{
+    margin-top: 59px;
+    width: 250.84px;
+    height: 250.84px;
+    border: 15px solid rgb(255, 0, 0); 
+    border-radius: 50%; 
+    padding: 20px;
+}
+.newyear-24{
+    text-align: left;
+
+}
+.newyear-24 h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 
 
 /* forth-section-container end */
